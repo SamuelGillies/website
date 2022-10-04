@@ -2,9 +2,13 @@ body {
   padding-top: 50px; 
 }
 
-h3 {
+h1, h3 {
   text-align: center;
   padding: 2%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
 
 .project-cards {
@@ -13,3 +17,29 @@ h3 {
   padding-bottom: 2%;
   justify-content: center;
 }
+
+.biography {
+  margin: 5%;
+  padding: 2%; 
+  text-align: justify;
+}
+
+.performances > h5 {
+  text-align: center;
+}
+
+.publications > h5 {
+  padding-top: 10px; 
+}
+
+.performances > ul, .publications > ul {
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.performances > ul li, .publications > ul li {
+  padding-bottom: 5px; 
+}
+
