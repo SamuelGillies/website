@@ -24,7 +24,16 @@ a:link, a:visited, a:hover, a:active {
   text-align: justify;
 }
 
+.sub-card {
+  display: flex; 
+  justify-content: center;
+}
 
+.overlay-center {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
 
 .performances > h5, .comp-catalogue > h5, .recordings > h5 {
   text-align: center;
