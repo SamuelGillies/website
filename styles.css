@@ -39,12 +39,6 @@ a:link, a:visited, a:hover, a:active {
   justify-content: center;
 }
 
-.overlay-center:hover {
-  background-color: black; 
-  opacity: 40%;
-  border-radius: 50%;
-}
-
 .performances > h5, .comp-catalogue > h5, .recordings > h5 {
   text-align: center;
 }
@@ -71,12 +65,26 @@ input {
   color: black; 
   height: 3em; 
   width: 10em; 
-  font-weight: 500;
 }
 
-input:hover {
-  border: 2px solid rgb(57, 57, 57);
-  border-radius: 8px; 
-  background-color: rgb(72, 72, 72);
-  color: rgb(255, 255, 255); 
+
+
+.card:hover img {
+  opacity: 50%;
+}
+
+.card:hover h3 {
+  opacity: 100%; 
+}
+
+.card h3 {
+  opacity: 0%; 
+}
+
+.card:hover h5 {
+  opacity: 100%; 
+}
+
+.card h5 {
+  opacity: 0%; 
 }
