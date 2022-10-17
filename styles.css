@@ -67,24 +67,20 @@ input {
   width: 10em; 
 }
 
+input:hover {
+  background-color: rgb(47, 47, 47);
+  color: whitesmoke; 
+}
 
-
-.card:hover img {
+.research-cards .card:hover img, .music-cards .card:hover img, .video-cards .card:hover img {
   opacity: 50%;
 }
 
-.card:hover h3 {
+.research-cards .card:hover h3, .music-cards .card:hover h3, .video-cards .card:hover h3 {
   opacity: 100%; 
 }
 
-.card h3 {
+.research-cards .card h3 , .music-cards .card h3, .video-cards .card h3 {
   opacity: 0%; 
 }
-
-.card:hover h5 {
-  opacity: 100%; 
-}
-
-.card h5 {
-  opacity: 0%; 
-}
+ 
