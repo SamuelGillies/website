@@ -107,6 +107,18 @@ input:hover {
   opacity: 0%; 
 }
 
+@media only screen and (max-width: 600px) {
+  .research-cards .card h3 , .music-cards .card h3, .video-cards .card h3 {
+    opacity: 100%; 
+  }
+
+  img {
+    width: 100%; 
+    height: auto; 
+  }
+
+}  
+
 .footer {
   height: 8vh;
   font-size: small;
