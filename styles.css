@@ -11,6 +11,7 @@ body {
   font-weight: bold;
   height: 100vh;
   color: white; 
+  background-color: black; 
   background-image: url("images/igis-3.jpg"); 
   background-repeat: no-repeat;
   background-attachment: fixed;
